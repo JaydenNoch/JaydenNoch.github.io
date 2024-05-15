@@ -1,0 +1,101 @@
+* ,html{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #76f5c2;
+    font-family: "Righteous", sans-serif;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    justify-content:space-between ;
+    padding: 1rem 2rem;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav div img {
+    width: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#f5c276;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+nav ul li a:hover{
+    color: #c276f5;
+    border-bottom: 1px solid #c276f5;
+}
+
+.jp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.awal{
+    text-align: center;
+    color: #c276f5;
+}
+
+footer{
+    background-color: white;
+    padding: 1rch 2rch;
+    flex: auto;
+}
+
+.sosial{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.bio{
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration-color: #c276f5;
+}
+
+.judul{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+
+.g1{
+    float: right;
+    display: flex;
+    height: 50vh;
+    object-fit: cover;
+    justify-content: space-between;
+    text-align: right;
+
+}
+
+.Riwayat{
+    float: center;
+}
+
+.form{
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-family: "Briem Hand", cursive;
+    }
+    font-family: "Open Sans", sans-serif;
+}

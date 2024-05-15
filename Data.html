@@ -1,0 +1,96 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penginputan Data Kawan-Kawan</title>
+    <link rel="stylesheet" href="jay.css">
+    <link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form">     
+        <h2 >Inputkan Biodata Kamu</h2>
+        <br>
+        <br>
+        <form  method="post">
+            <label for="Nama">Nama</label>
+            <input type="text" id="Nama" name="Nama" placeholder="Nama">
+            <br><br>
+            <label for="umur">Umur</label>
+            <input type="number" id="umur" placeholder="contoh:17">
+            <br><br>
+            <label for="tgl">Tanggal Lahir</label>
+            <input type="date" id="tgl" placeholder="contoh:19/11/2005">
+            <br><br>
+            <label for="agama">Agama</label>
+            <select id="agama" nama="agama">
+                <option value="">Pilihan Agama</option>
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="katolik">Katolik</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>                
+                <option value="konghucu">konghucu</option>
+            </select>
+            <br><br>
+            <label for="jenis kelamin">Jenis Kelamin</label>
+            <select name="kelamin" id="kelamin">
+                <option value="">Pilihan Kelamin</option>
+                <option value="laki laki">Pria</option>
+                <option value="perempuan">Wanita</option>
+            </select>
+            <br><br>
+            <label for="gol darah">Gol Darah</label>
+            <br>
+            <label for="a">A</label>
+            <input type="radio" name="goldar" id="a" value="1">
+            <br>
+            <label for="o">O</label>
+            <input type="radio" name="goldar" id="o" value="2">
+            <br>
+            <label for="b">B</label>
+            <input type="radio" name="goldar" id="b" value="3">
+            <br>
+            <label for="ab">AB</label>
+            <input type="radio" name="goldar" id="ab" value="4">
+            <br>
+            <br>
+            <label for="stat">Status Saat ini</label>
+            <select name="stat" id="stat">
+                <option value="">Status Kamu</option>
+                <option value="bekerja">Bekerja</option>
+                <option value="sekolah">Bersekolah</option>
+                <option value="ngan">Menganggur</option>
+            </select>
+            <br><br>
+            <label for="cinta">Seberapa Cinta Sama Yourself?</label>
+            <br><br>
+            <input type="range" id="cinta" name="cinta">
+            <br><br>
+            <label for="mak">Rasa Makanan Favorit</label>
+            <br><br>
+            <label for="asin">Asin</label>
+            <input type="checkbox" id="asin" name="mak" value="1">
+            <br>
+            <label for="manis">Manis</label>
+            <input type="checkbox" id="manis" name="mak" value="2">
+            <br>
+            <label for="pahit">Pahit</label>
+            <input type="checkbox" id="pahit" name="mak" value="3">
+            <br>
+            <label for="pedas">Pedas</label>
+            <input type="checkbox" id="pedas" name="mak" value="4">
+            <br>
+            <label for="gurih">Gurih</label>
+            <input type="checkbox" id="gurih" name="mak" value="5">
+            <br><br>
+            <label for="alamat">Alamat</label>
+            <textarea id="alamat" name="alamat" placeholder="Isikan Alamat"></textarea>
+            <br><br>
+            <button type="submit" >Simpan</button>
+            <button type="reset" >Hapus</button>
+        </form> 
+    </div>
+</body>
+</html>
